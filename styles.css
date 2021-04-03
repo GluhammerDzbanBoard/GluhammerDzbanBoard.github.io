@@ -1,0 +1,28 @@
+.image {
+    width: 400px;
+    height: 400 px;
+    padding: 10px;
+    object-fit: contain;
+    
+}
+
+.back-button {
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+}
+
+.gachi-button {
+    color: black;
+    border-color: palevioletred;
+    box-shadow: pink;
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+    opacity: 0.6;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+.gachi-button:hover {
+    background-color: hotpink;
+}
