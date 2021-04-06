@@ -14,7 +14,7 @@ function stopSound() {
 
 function playRandomSound(){
     $.getJSON("/sounds.json", function(json) {
-        playSound(json[getRndInteger(0, json.length)]);
+        playSound(json[getRndInteger(0, json.length)].FilePath);
     });
 }
 
