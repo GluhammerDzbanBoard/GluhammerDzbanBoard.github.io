@@ -23,6 +23,27 @@
     width: 100%;
     transition-duration: 0.4s;
 }
+
 .gachi-button:hover {
     background-color: hotpink;
+    font-weight: bold;
 }
+
+.calm-button {
+    color: black;
+    border-color: palegoldenrod;
+    box-shadow: yellow;
+    padding: 10px;
+    margin: 10px;
+    background-color: palegoldenrod;
+    opacity: 0.6;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.calm-button:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
