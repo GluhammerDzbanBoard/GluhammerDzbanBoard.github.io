@@ -72,7 +72,8 @@ function closeNav() {
 
 function playRandomSound(){
     $.getJSON("/sounds.json", function(json) {
-        console.log(json); // this will show the info it in firebug console
+        var randomSound = getRndInteger(0, json.length);
+        playSound(random.FilePath);
     });
 }
 
