@@ -55,9 +55,9 @@ function getRndInteger(min, max) {
 }
 
 function playRandomSound(){
-    fetch('sounds.json')
-    .then(response => response.json())
-    .then(data => console.log(data));
+    $.getJSON("test.json", function(json) {
+        console.log(json); // this will show the info it in firebug console
+    });
 }
 
 function openNav() {
@@ -68,5 +68,11 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginRight= "0";
+}
+
+function playRandomSound(){
+    $.getJSON("/sounds.json", function(json) {
+        console.log(json); // this will show the info it in firebug console
+    });
 }
 
