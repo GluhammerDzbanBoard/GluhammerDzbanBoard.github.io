@@ -151,13 +151,6 @@ footer {
 
 }
 
-.bloodtrail {
-    background-image: url('Images/1x.png'); 
-    background-position: center right 38%;
-    display: inline-block;
-    background-repeat: no-repeat;
-}
-
 .party-button:hover {
     background-color: red;
     font-weight: bold;

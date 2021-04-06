@@ -1,0 +1,13 @@
+.bloodtrail {
+    background-image: url('Images/Emotes/1x.png'); 
+    background-position: center right 38%;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.gachiBlast {
+    background-image: url('Images/Emotes/gachiblast.gif'); 
+    background-position: center right 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
