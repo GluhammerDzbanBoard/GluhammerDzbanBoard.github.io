@@ -32,7 +32,7 @@
           <div class="col-sm">
             <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <p>TODO</p>>
+                <p id="changeLog>"></p>
               </div>
               <div id="main">
                 <span style="font-size:30px; position:absolute; right:10px;cursor:pointer" onclick="openNav()">&#9776; ChangeLog</span>
@@ -69,4 +69,14 @@
                 break;
         }
     });
+
+    $(function(){
+      $("#changeLog").load("changeLog.html"); 
+    });
+
+    function playRandomSound(){
+    $.getJSON("/sounds.json", function(json) {
+        console.log(json); // this will show the info it in firebug console
+    });
+}
 </script>

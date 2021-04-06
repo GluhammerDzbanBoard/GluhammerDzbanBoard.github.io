@@ -55,8 +55,9 @@ function getRndInteger(min, max) {
 }
 
 function playRandomSound(){
-    var fs = require('fs');
-    var files = fs.readdirSync('/Sounds');
+    fetch('sounds.json')
+    .then(response => response.json())
+    .then(data => console.log(data));
 }
 
 function openNav() {
