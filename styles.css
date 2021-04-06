@@ -6,6 +6,64 @@
     
 }
 
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+  }
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav p {
+    padding: 4px 4px 4px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 .back-button {
     padding: 5px;
     margin: 10px;
@@ -15,7 +73,7 @@
 .gachi-button {
     color: black;
     border-color: palevioletred;
-    box-shadow: pink;
+    box-shadow: palevioletred;
     padding: 10px;
     margin: 10px;
     background-color: pink;
@@ -45,5 +103,87 @@
     background-color: yellow;
     font-weight: bold;
 }
+
+.classic-button {
+    color: black;
+    border-color: brown;
+    box-shadow: brown;
+    padding: 10px;
+    margin: 10px;
+    background-color: burlywood;
+    opacity: 0.6;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.classic-button:hover {
+    background-color: brown;
+    font-weight: bold;
+}
+
+.animal-button {
+    color: black;
+    border-color: blue;
+    box-shadow: blue;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    opacity: 0.6;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.party-button:hover {
+    background-color: blue;
+    font-weight: bold;
+}
+
+.party-button {
+    color: black;
+    border-color: red;
+    box-shadow: red;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightcoral;
+    opacity: 0.6;
+    width: 100%;
+    transition-duration: 0.4s;
+
+}
+
+.bloodtrail {
+    background-image: url('Images/1x.png'); 
+    background-position: center right 38%;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.party-button:hover {
+    background-color: red;
+    font-weight: bold;
+}
+
+.spec-button {
+    color: black;
+    border-color: green;
+    box-shadow: green;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgreen;
+    opacity: 0.6;
+    width: 100%;
+    transition-duration: 0.4s;
+
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.spec-button:hover {
+    background-color: green;
+    font-weight: bold;
+}
+
+
+
 
 

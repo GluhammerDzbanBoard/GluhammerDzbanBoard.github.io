@@ -16,3 +16,56 @@ function backToMainPage() {
     stopSound();
     location.replace("../index.html");
 }
+
+function openRandomGlu(){
+
+    openGluPage(getRndInteger(1,6));
+}
+
+function selectGlu(){
+    var id = $("#selectedGlu").children(":selected").attr("id");
+    openGluPage(parseInt(id));
+}
+
+function openGluPage(id){
+    switch(id) {
+        case 1:
+            location.replace("Views/calmGlu.html")
+            break;
+        case 2: 
+            location.replace("Views/specGlu.html")
+            break;
+        case 3: 
+            location.replace("Views/gachiGlu.html")
+            break;
+        case 4: 
+            location.replace("Views/classicGlu.html")
+            break;
+        case 5: 
+            location.replace("Views/partyGlu.html")
+            break;
+        case 6: 
+            location.replace("Views/friendGlu.html")
+            break;
+    }
+}
+
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
+}
+
+function playRandomSound(){
+    var fs = require('fs');
+    var files = fs.readdirSync('/Sounds');
+}
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginRight = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginRight= "0";
+}
+
