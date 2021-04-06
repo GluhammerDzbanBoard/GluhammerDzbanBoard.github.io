@@ -12,6 +12,13 @@ function stopSound() {
     }
 }
 
+function playRandomSound(){
+    $.getJSON("/sounds.json", function(json) {
+        var randomSound = getRndInteger(0, json.length);
+        playSound(random.FilePath);
+    });
+}
+
 function backToMainPage() {
     stopSound();
     location.replace("../index.html");
@@ -54,12 +61,6 @@ function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min) ) + min;
 }
 
-function playRandomSound(){
-    $.getJSON("test.json", function(json) {
-        console.log(json); // this will show the info it in firebug console
-    });
-}
-
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginRight = "250px";
@@ -68,12 +69,5 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginRight= "0";
-}
-
-function playRandomSound(){
-    $.getJSON("/sounds.json", function(json) {
-        var randomSound = getRndInteger(0, json.length);
-        playSound(random.FilePath);
-    });
 }
 
