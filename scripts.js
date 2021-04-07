@@ -68,6 +68,9 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginRight= "0";
+    $("#changeLogMinimize").hide();
+    $("#changeLogMaximize").show();
+    $("#closeNavButton").css("padding-right", "5%");
 }
 
 function minimizeNav(){
