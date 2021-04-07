@@ -271,5 +271,32 @@
     },
     {
         "FilePath": "./Sounds/Przyjaciel/zajac.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/gluhammerjegowno.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/jakkurwapsa.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/wkalendarz.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/jebanywonsz.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/cozakrowa.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/piesiunie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/bylesdobrympsem.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/niewiemczyzrobie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/showerssiejaja.wav"
     }
 ]
