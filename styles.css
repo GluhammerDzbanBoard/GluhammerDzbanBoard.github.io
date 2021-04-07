@@ -9,7 +9,7 @@
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
-    background-color: black;
+    background-color: #1c1e21;
 }
 
 footer {
@@ -31,7 +31,7 @@ footer {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 6px;
 }
 
 .sidenav object {
@@ -41,7 +41,7 @@ footer {
     color: #818181;
     display: block;
     transition: 0.3s;
-    height: 99%;
+    height: 93%;
 }
 
 .sidenav object:hover, .offcanvas object:focus{
@@ -49,11 +49,17 @@ footer {
 }
 
 .sidenav .closebtn {
-    position: absolute;
+    float: right;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    color:white;
+    padding-right: 5%;
+}
+
+.minimizeButton {
+    float: center;
 }
 
 #main {
@@ -135,7 +141,7 @@ footer {
     transition-duration: 0.4s;
 }
 
-.party-button:hover {
+.animal-button:hover {
     background-color: blue;
     font-weight: bold;
 }

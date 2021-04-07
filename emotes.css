@@ -5,6 +5,13 @@
     background-repeat: no-repeat;
 }
 
+.peepowtf {
+    background-image: url('Images/Emotes/peepowtf.png'); 
+    background-position: center right 38%;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
 .gachiBlast {
     background-image: url('Images/Emotes/gachiblast.gif'); 
     background-position: center right 25px;

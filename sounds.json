@@ -247,5 +247,29 @@
     },
     {
         "FilePath": "./Sounds/Spec/wodakrzyzujeplany.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/chodziozwisajacejaja.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/orgia.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/siadenabutle.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/wyslalesnudeska.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/alezakolewyjebalo.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/okurwacostyzrobil.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/weebostwo.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/zajac.wav"
     }
 ]

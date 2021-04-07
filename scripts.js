@@ -70,3 +70,17 @@ function closeNav() {
     document.getElementById("main").style.marginRight= "0";
 }
 
+function minimizeNav(){
+    $("#mySidenav").css("width","260px");
+    $("#changeLogMinimize").hide();
+    $("#changeLogMaximize").show();
+    $("#closeNavButton").css("padding-right", "5%");
+}
+
+function maximizeNav(){
+    $("#mySidenav").css("width", "100%");
+    $("#changeLogMaximize").hide();
+    $("#changeLogMinimize").show();
+    $("#closeNavButton").css("padding-right", "1%");
+}
+
