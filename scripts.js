@@ -24,8 +24,7 @@ function backToMainPage() {
 }
 
 function openRandomGlu(){
-
-    openGluPage(getRndInteger(1,6));
+    openGluPage(getRndInteger(1,7));
 }
 
 function selectGlu(){

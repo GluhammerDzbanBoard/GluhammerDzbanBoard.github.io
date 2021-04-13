@@ -298,5 +298,38 @@
     },
     {
         "FilePath": "./Sounds/Spec/showerssiejaja.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/nastepnymrazemdamdupy.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/seryjkaponogach.wav"
+    },
+    {
+        "FilePath": "./Sounds/Imprezowy/jajeszczespizgany.wav"
+    },
+    {
+        "FilePath": "./Sounds/Imprezowy/koks.wav"
+    },
+    {
+        "FilePath": "./Sounds/Imprezowy/dobrymefedron.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/problemzpieniedzmi.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/dobudypsie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/konbity.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/nocows.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/aztyletego.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/chain.wav"
     }
 ]
