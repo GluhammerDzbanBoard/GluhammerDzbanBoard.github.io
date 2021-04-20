@@ -41,8 +41,35 @@
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/chodziozwisajacejaja.wav')">CHODZI O ZWISAJĄCE JAJA</button>
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/nastepnymrazemdamdupy.wav')">NASTĘPNYM RAZEM DAM... TEGO</button>
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/seryjkaponogach.wav')">SERYJKĄ PO NOGACH</button>
+
+            <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/fisting.wav')">FISTING</button>
+            <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/meeting.wav')">BĘDĘ TAKIE KLAPSY NA MEETINGU ROZDAWAŁ</button>
+            <button type="button" id="ohButton1" class="gachi-button" onclick="playSound('../Sounds/Gachi/ohah.wav')">OH</button>
+            <button type="button" id="ohButton2" class="gachi-button" onclick="playSound('../Sounds/Gachi/ohah2.wav')">OHH</button>
+            <button type="button" id="ohButton3" class="gachi-button" onclick="playSound('../Sounds/Gachi/ohah3.wav')">OHHH</button>
+            <button type="button" id="ohButton4" class="gachi-button" onclick="playSound('../Sounds/Gachi/ohah4.wav')">OHHHH</button>
+            <button type="button" id="ohButton5" class="gachi-button" onclick="playSound('../Sounds/Gachi/ohah5.wav')">OHHHHH</button>
+            <button type="button" id="ohButton6" class="gachi-button" onclick="playSound('../Sounds/Gachi/ohvan.wav')">OHHH VAN</button>
+            <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/szykujdupe.wav')">SZYKUJ DUPE</button>
           </div>
           <div class="col"></div>
         </div>
       </div>
 </body>
+<script>
+$('[id*="ohButton"]').hover(
+  function() {
+    
+    $('[class*="gachi-button"]').addClass("dungeon-button");
+    $('[class*="gachi-button"]').removeClass("gachi-button");
+    $(this).addClass("gachiGolden");
+    document.body.style.backgroundImage = 'url("../Images/Backgrounds/dungeon.jpg")'
+  }, function() {
+    document.body.style.backgroundImage =  'url("../Images/Backgrounds/gachi.png")'
+    $('[class*="dungeon-button"]').addClass("gachi-button");
+    $('[class*="dungeon-button"]').removeClass("dungeon-button");
+    $(this).removeClass("gachiGolden")
+  }
+);
+
+</script>

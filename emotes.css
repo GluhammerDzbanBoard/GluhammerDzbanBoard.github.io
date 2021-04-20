@@ -25,3 +25,10 @@
     display: inline-block;
     background-repeat: no-repeat;
 }
+
+.gachiGolden {
+    background-image: url('Images/Emotes/gachigolden.gif'); 
+    background-position: center right 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
