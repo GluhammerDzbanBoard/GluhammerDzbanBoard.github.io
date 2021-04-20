@@ -370,5 +370,8 @@
     },
     {
         "FilePath": "./Sounds/Gachi/szykujdupe.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/hotload.wav"
     }
 ]
