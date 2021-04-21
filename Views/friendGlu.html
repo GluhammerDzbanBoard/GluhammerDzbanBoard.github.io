@@ -14,7 +14,7 @@
     <div class="container" >
         <div class="row">
           <div class="col"></div>
-          <div class="col-6">
+          <div id="mainBoard" class="col-6">
             <button type="button" class="back-button" onclick="backToMainPage()">Powrót do wyboru starego</button>
             <button type="button" class="animal-button" onclick="playSound('../Sounds/Przyjaciel/swiniakami_gardze.wav')">ŚWINIAKAMI GARDZĘ</button>
             <button type="button" class="animal-button" onclick="playSound('../Sounds/Przyjaciel/co_malpiszon_wyprawia.wav')">ZOBACZ MAŁPISZONA</button>
@@ -37,3 +37,11 @@
         </div>
       </div>
 </body>
+<script>
+  $(document).ready(function(){
+    if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $("#mainBoard").removeClass("col-6")
+      $("#mainBoard").addClass("col-sm")
+    }
+  })
+  </script>

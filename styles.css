@@ -74,7 +74,8 @@ footer {
 
 .back-button {
     padding: 5px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 100%;
 }
 
@@ -83,7 +84,8 @@ footer {
     border-color: palevioletred;
     box-shadow: palevioletred;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: pink;
     opacity: 0.6;
     width: 100%;
@@ -95,7 +97,8 @@ footer {
     border-color: black;
     box-shadow: black;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: black;
     opacity: 0.6;
     width: 100%;
@@ -112,7 +115,8 @@ footer {
     border-color: palegoldenrod;
     box-shadow: yellow;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: palegoldenrod;
     opacity: 0.6;
     width: 100%;
@@ -146,7 +150,8 @@ footer {
     border-color: blue;
     box-shadow: blue;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: lightblue;
     opacity: 0.6;
     width: 100%;
@@ -163,7 +168,8 @@ footer {
     border-color: red;
     box-shadow: red;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: lightcoral;
     opacity: 0.6;
     width: 100%;
@@ -181,7 +187,8 @@ footer {
     border-color: green;
     box-shadow: green;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: lightgreen;
     opacity: 0.6;
     width: 100%;

@@ -13,8 +13,8 @@
 <body style="background-image: url('../Images/Backgrounds/spokoj.png'); background-size: 100% 100%; background-repeat: no-repeat; background-attachment: fixed;">
     <div class="container" >
         <div class="row">
-          <div class="col"></div>
-          <div class="col-6">
+          <div id="div1" class="col"></div>
+          <div id="mainBoard" class="col-6">
             <button type="button" class="back-button" onclick="backToMainPage()">Powrót do wyboru starego</button>
             <button type="button" class="calm-button" onclick="playSound('../Sounds/Oaza/escapedalem.wav')">ESCAPE DAŁEM</button>
             <button type="button" class="calm-button" onclick="playSound('../Sounds/Oaza/japierdole.wav')">JA PIERDOLE</button>
@@ -34,7 +34,15 @@
             <button type="button" class="calm-button" onclick="playSound('../Sounds/Oaza/wrozki.wav')">WYKURWIŁEM SIĘ NA WRÓŻKACH</button>
             <button type="button" class="calm-button" onclick="playSound('../Sounds/Oaza/ohkurwa.wav')">OOOOOOO KURWA MAĆ</button>
           </div>
-          <div class="col"></div>
+          <div id="div2" class="col"></div>
         </div>
       </div>
 </body>
+<script>
+$(document).ready(function(){
+  if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $("#mainBoard").removeClass("col-6")
+    $("#mainBoard").addClass("col-sm")
+  }
+})
+</script>

@@ -15,7 +15,7 @@
     <div class="container" >
         <div class="row">
           <div class="col"></div>
-          <div class="col-6">
+          <div id="mainBoard" class="col-6">
             <button type="button" class="back-button" onclick="backToMainPage()">Powrót do wyboru starego</button>
             <button type="button" class="classic-button" onclick="playSound('../Sounds/Klasyczny/ayayaya.wav')">AYAYA</button>
             <button type="button" class="classic-button" onclick="playSound('../Sounds/Klasyczny/jebanywidzu.wav')">WITAM JEBANY WIDZU</button>
@@ -51,3 +51,11 @@
         </div>
       </div>
 </body>
+<script>
+  $(document).ready(function(){
+    if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $("#mainBoard").removeClass("col-6")
+    $("#mainBoard").addClass("col-sm")
+    }
+  })
+  </script>

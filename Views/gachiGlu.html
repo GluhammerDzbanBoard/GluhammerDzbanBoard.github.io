@@ -15,7 +15,7 @@
     <div class="container" >
         <div class="row">
           <div class="col"></div>
-          <div class="col-6">
+          <div id="mainBoard" class="col-6">
             <button type="button" class="back-button" onclick="backToMainPage()">Powrót do wyboru starego</button>
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/lordofthelockerroom.wav')">LORDS OF THE LOCKER ROOM</button>
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/gladko.wav')">ALE GŁADZIUTKO!</button>
@@ -41,7 +41,6 @@
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/chodziozwisajacejaja.wav')">CHODZI O ZWISAJĄCE JAJA</button>
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/nastepnymrazemdamdupy.wav')">NASTĘPNYM RAZEM DAM... TEGO</button>
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/seryjkaponogach.wav')">SERYJKĄ PO NOGACH</button>
-
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/fisting.wav')">FISTING</button>
             <button type="button" class="gachi-button" onclick="playSound('../Sounds/Gachi/meeting.wav')">BĘDĘ TAKIE KLAPSY NA MEETINGU ROZDAWAŁ</button>
             <button type="button" id="ohButton1" class="gachi-button" onclick="playSound('../Sounds/Gachi/ohah.wav')">OH</button>
@@ -58,18 +57,25 @@
       </div>
 </body>
 <script>
+$(document).ready(function(){
+  if( /Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    $("#mainBoard").removeClass("col-6")
+    $("#mainBoard").addClass("col-sm")
+  }
+})
+
 $('[id*="ohButton"]').hover(
   function() {
     
     $('[class*="gachi-button"]').addClass("dungeon-button");
     $('[class*="gachi-button"]').removeClass("gachi-button");
-    $(this).addClass("gachiGolden");
+    $(this).addClass("gachiGoldenFire");
     document.body.style.backgroundImage = 'url("../Images/Backgrounds/dungeon.jpg")'
   }, function() {
     document.body.style.backgroundImage =  'url("../Images/Backgrounds/gachi.png")'
     $('[class*="dungeon-button"]').addClass("gachi-button");
     $('[class*="dungeon-button"]').removeClass("dungeon-button");
-    $(this).removeClass("gachiGolden")
+    $(this).removeClass("gachiGoldenFire")
   }
 );
 
