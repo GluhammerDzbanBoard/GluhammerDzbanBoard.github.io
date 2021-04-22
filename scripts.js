@@ -86,3 +86,14 @@ function maximizeNav(){
     $("#closeNavButton").css("padding-right", "1%");
 }
 
+function openLeftNav() {
+    document.getElementById("mySidenav2").style.width = "250px";
+    document.getElementById("leftMain").style.marginLeft = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+  function closeLeftNav() {
+    document.getElementById("mySidenav2").style.width = "0";
+    document.getElementById("leftMain").style.marginLeft = "0";
+  }
+
