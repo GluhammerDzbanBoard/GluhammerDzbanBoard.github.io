@@ -1,5 +1,5 @@
 .image {
-    width: 400px;
+    width: 380px;
     height: 400 px;
     padding: 10px;
     object-fit: contain;
@@ -188,7 +188,8 @@ footer {
     border-color: brown;
     box-shadow: brown;
     padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: burlywood;
     opacity: 0.6;
     width: 100%;
