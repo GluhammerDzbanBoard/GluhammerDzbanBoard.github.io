@@ -1,9 +1,7 @@
 .image {
-    width: 380px;
-    height: 400 px;
-    padding: 10px;
-    object-fit: contain;
-    
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* The side navigation menu */
