@@ -24,7 +24,7 @@ function backToMainPage() {
 }
 
 function openRandomGlu(){
-    openGluPage(getRndInteger(1,7));
+    openGluPage(getRndInteger(1,8));
 }
 
 function selectGlu(){
@@ -52,6 +52,9 @@ function openGluPage(id){
         case 6: 
             location.replace("Views/friendGlu.html")
             break;
+        case 7: 
+            location.replace("Views/weebHammer.html")
+        break;
     }
 }
 
@@ -89,11 +92,10 @@ function maximizeNav(){
 function openLeftNav() {
     document.getElementById("mySidenav2").style.width = "250px";
     document.getElementById("leftMain").style.marginLeft = "250px";
-  }
+}
   
-  /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-  function closeLeftNav() {
+function closeLeftNav() {
     document.getElementById("mySidenav2").style.width = "0";
     document.getElementById("leftMain").style.marginLeft = "0";
-  }
+}
 

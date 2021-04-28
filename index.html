@@ -14,14 +14,14 @@
     <div class="container">
         <div class="row">
           <div class="col-sm"> 
-            <div id="mySidenav2" class="sidenavLeft">
+            <!-- <div id="mySidenav2" class="sidenavLeft">
               <a href="javascript:void(0)" class="closebtn" onclick="closeLeftNav()">&times;</a>
               <a href="#">SoundBoard</a>
               <a href="./Views/creator.html">Kreator</a>
             </div>
             <div id="leftMain">
               <span style="font-size:30px; position:absolute; left:10px;cursor:pointer; color:whitesmoke" onclick="openLeftNav()">&#9776; Menu</span>
-            </div>
+            </div> -->
           </div>
           <div class="col-sm">
             <p style="color: white;">Wybierz swojego starego:</p>
@@ -32,6 +32,7 @@
                 <option id="4">Stary klasycznie</option>
                 <option id="5">Stary imprezowicz</option>
                 <option id="6">Stary przyjaciel zwierząt</option>
+                <option id="7">Weebhammer</option>
             </select>
             <img class="image" id="selectedGluImage" src="Images/oaza.png" alt="Italian Trulli">
             <button type="button" class="btn btn-primary" style="width: 100%; margin-top: 5px; margin-bottom: 25px;" onclick="selectGlu()">Wybierz</button>
@@ -53,7 +54,7 @@
       </div>
 </body>
 <footer>
-    <p>v1.0.4</p>
+    <p>v1.0.5</p>
 </footer>
 
 <script>
@@ -78,6 +79,9 @@
             case 6: 
                 $("#selectedGluImage").attr("src","Images/przyjaciel.png");
                 break;
+            case 7: 
+                $("#selectedGluImage").attr("src","Images/weeb.png");
+            break;
         }
     });
 

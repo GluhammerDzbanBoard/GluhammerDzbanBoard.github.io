@@ -81,7 +81,7 @@
         "FilePath": "./Sounds/Klasyczny/archy.wav"
     },
     {
-        "FilePath": "./Sounds/Klasyczny/ayayaya.wav"
+        "FilePath": "./Sounds/Weeb/ayayaya.wav"
     },
     {
         "FilePath": "./Sounds/Klasyczny/chlopmizarazrobidosiad.wav"
@@ -267,7 +267,7 @@
         "FilePath": "./Sounds/Klasyczny/okurwacostyzrobil.wav"
     },
     {
-        "FilePath": "./Sounds/Klasyczny/weebostwo.wav"
+        "FilePath": "./Sounds/Weeb/weebostwo.wav"
     },
     {
         "FilePath": "./Sounds/Przyjaciel/zajac.wav"
@@ -373,5 +373,41 @@
     },
     {
         "FilePath": "./Sounds/Gachi/hotload.wav"
+    },
+    {
+        "FilePath": "./Sounds/Weeb/coszrobilweeb.wav"
+    },
+    {
+        "FilePath": "./Sounds/Weeb/gachibasserzy.wav"
+    },
+    {
+        "FilePath": "./Sounds/Weeb/showme.wav"
+    },
+    {
+        "FilePath": "./Sounds/Weeb/takatwojatwarz.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/ohmyboi.wav"
+    },
+    {
+        "FilePath": "./Sounds/Weeb/dalejchlopcy.wav"
+    },
+    {
+        "FilePath": "./Sounds/Imprezowy/potrzebujekrysztalu.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/jasnadupa.wav"
+    },
+    {
+        "FilePath": "./Sounds/Imprezowy/psychawkosmos.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/tylkospokojnie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/gorylemalpy.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/moralewyplukujamagnez.wav"
     }
 ]
