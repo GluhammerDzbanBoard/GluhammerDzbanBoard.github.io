@@ -409,5 +409,29 @@
     },
     {
         "FilePath": "./Sounds/Spec/moralewyplukujamagnez.wav"
+    },
+    {
+        "FilePath": "./Sounds/Imprezowy/idechlaczkolegami.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/gojc.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/plujenadzieci.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/golebibymniechcialstracic.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/nie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/kurwa2.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/kompzrobil.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/wkurwiesie.wav"
     }
 ]
