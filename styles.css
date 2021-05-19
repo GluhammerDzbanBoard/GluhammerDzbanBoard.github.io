@@ -264,14 +264,32 @@ footer {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: purple;
+    background-color: mediumpurple;
     opacity: 0.6;
     width: 100%;
     transition-duration: 0.4s;
 }
 
 .weeb-button:hover {
-    background-color: mediumpurple;
+    background-color: purple;
+    font-weight: bold;
+}
+
+.hots-button {
+    color: White;
+    border-color: mediumblue;
+    box-shadow: mediumblue;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: skyblue;
+    opacity: 0.6;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.hots-button:hover {
+    background-color: mediumblue;
     font-weight: bold;
 }
 
@@ -283,7 +301,3 @@ footer {
 .changeLogNote {
     color:white;
 }
-
-
-
-

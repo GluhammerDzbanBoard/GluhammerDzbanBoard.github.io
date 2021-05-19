@@ -24,7 +24,7 @@ function backToMainPage() {
 }
 
 function openRandomGlu(){
-    openGluPage(getRndInteger(1,8));
+    openGluPage(getRndInteger(1,9));
 }
 
 function selectGlu(){
@@ -54,6 +54,9 @@ function openGluPage(id){
             break;
         case 7: 
             location.replace("Views/weebHammer.html")
+        break;
+        case 8: 
+            location.replace("Views/hotsKing.html")
         break;
     }
 }

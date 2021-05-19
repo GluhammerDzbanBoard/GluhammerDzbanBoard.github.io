@@ -43,3 +43,17 @@
 .gachiGoldenFire {
     background: url('Images/Emotes/gachigolden.gif') center right 25px no-repeat, url('Images/Emotes/fire.gif'); 
 }
+
+.mods {
+    background-image: url('Images/Emotes/mods.gif'); 
+    background-position: center right 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.monke {
+    background-image: url('Images/Emotes/monke.gif'); 
+    background-position: center right 25px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}

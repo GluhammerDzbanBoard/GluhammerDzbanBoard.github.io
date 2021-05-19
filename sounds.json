@@ -433,5 +433,47 @@
     },
     {
         "FilePath": "./Sounds/Oaza/wkurwiesie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/helloguys.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/tutezchodzi.wav"
+    },
+    {
+        "FilePath": "./Sounds/Gachi/musimyzwalic.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/nawiecznosc.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/winaweebow.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/wodzupokaz.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/aaaa.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/japierd.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/nokurwamusialem.wav"
+    },
+    {
+        "FilePath": "./Sounds/Przyjaciel/jakismalpiszonchce.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/ktograpiki.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/nachujatakujesz.wav"
+    },
+    {
+        "FilePath": "./Sounds/Spec/ziemisieniegra.wav"
+    },
+    {
+        "FilePath": "./Sounds/Weeb/weebsrise.wav"
     }
 ]
