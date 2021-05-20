@@ -475,5 +475,44 @@
     },
     {
         "FilePath": "./Sounds/Weeb/weebsrise.wav"
+    },
+    {
+        "FilePath": "./Sounds/Klasyczny/zaklecie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Oaza/nienokurwa.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/2sloje.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/2xr.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/abaturaogladac.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/aconiejestsyfem.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/alboja.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/chlopysie.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/dawajpajaka.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/jakmniewpycha.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/muszepochwalic.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/pile.wav"
+    },
+    {
+        "FilePath": "./Sounds/Hots/zuljin.wav"
     }
 ]

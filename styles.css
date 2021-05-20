@@ -276,7 +276,7 @@ footer {
 }
 
 .hots-button {
-    color: White;
+    color: black;
     border-color: mediumblue;
     box-shadow: mediumblue;
     padding: 10px;
@@ -289,6 +289,7 @@ footer {
 }
 
 .hots-button:hover {
+    color: white;
     background-color: mediumblue;
     font-weight: bold;
 }
