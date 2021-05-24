@@ -13,8 +13,16 @@ function stopSound() {
 }
 
 function playRandomSound(){
-    $.getJSON("/sounds.json", function(json) {
+    $.getJSON("/Data/sounds.json", function(json) {
         playSound(json[getRndInteger(0, json.length)].FilePath);
+    });
+}
+
+function setRandomEmote(){
+    $.getJSON("/Data/gachiEmotes.json", function(json) {
+        $("*[id*=gachiGifEmote]:visible").each(function() {
+            $(this).attr("src", json[getRndInteger(0, json.length)].FilePath);
+          });
     });
 }
 
