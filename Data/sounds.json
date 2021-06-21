@@ -514,5 +514,80 @@
     },
     {
         "FilePath": "../Sounds/Hots/zuljin.wav"
+    },
+    {
+        "FilePath": "../Sounds/Hots/cotystichu.wav"
+    },
+    {
+        "FilePath": "../Sounds/Hots/jakhookujesz.wav"
+    },
+    {
+        "FilePath": "../Sounds/Hots/nipanimaju.wav"
+    },
+    {
+        "FilePath": "../Sounds/Imprezowy/alotofkox.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/fart.wav"
+    },
+    {
+        "FilePath": "../Sounds/Imprezowy/patrzjakieszaszki.wav"
+    },
+    {
+        "FilePath": "../Sounds/Imprezowy/tutajsiepluje.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/atumitrole.wav"
+    },  
+    {
+        "FilePath": "../Sounds/Oaza/ileile.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/jakzabolalo.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/jestsprawiedliwosc.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/kurwa3.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/kurwa4.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/minusluck.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/nojak2morale.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/jeb.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/codopierdolil.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/gdybybeszek.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/jeremy.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/ktojesttakidobry.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/minustower.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/pierdolonegofly.wav"
+    },
+    {
+        "FilePath": "../Sounds/Weeb/jasieutozsamiam.wav"
+    },
+    {
+        "FilePath": "../Sounds/Weeb/przebrazowie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Weeb/wkoncujestem.wav"
     }
 ]
