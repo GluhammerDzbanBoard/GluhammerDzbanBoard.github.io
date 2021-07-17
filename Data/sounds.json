@@ -589,5 +589,51 @@
     },
     {
         "FilePath": "../Sounds/Weeb/wkoncujestem.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/dekolcik.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/oohh.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/penis.wav"
+    },
+    {
+        "FilePath": "../Sounds/Imprezowy/jaknosswedzi.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/dlastaregoto.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/alefarci.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/redukacjaweebow.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/tagrazawsze.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/aa.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/blind.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/nojakminusmoral.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/schabowe.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/wyjebalemsie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/taktyka.wav"
+    },
+
+    {
+        "FilePath": "../Sounds/Spec/zmany.wav"
     }
 ]
