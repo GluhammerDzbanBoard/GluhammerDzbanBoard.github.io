@@ -632,8 +632,58 @@
     {
         "FilePath": "../Sounds/Spec/taktyka.wav"
     },
-
     {
         "FilePath": "../Sounds/Spec/zmany.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/ahdobrze.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/benamam.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/jezusku.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/moznaprzelizacsie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/krecimywora.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/cizarazkopazajebie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/jajebie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/nozdychaj.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/jakzminusluckiem.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/noniemowzemoral.wav"
+    },
+    {
+        "FilePath": "../Sounds/Przyjaciel/niegadamzpsami.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/znajaczycie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/znowu900.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/ztymkanciarzem.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/przestansieruszac.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/pocotewampiry.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/odegralemsie.wav"
     }
 ]
