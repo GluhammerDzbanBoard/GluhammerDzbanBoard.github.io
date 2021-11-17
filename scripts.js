@@ -1,5 +1,12 @@
 var sound;
 function playSound(filePath){
+    var video = $("#102MetryVideo");
+    if (video.get(0) !== undefined){
+        video.get(0).pause();
+        video.get(0).currentTime = 0;
+        video.hide();
+    }
+
     stopSound();
     sound = new Audio(filePath);
     sound.play();
@@ -108,5 +115,9 @@ function openLeftNav() {
 function closeLeftNav() {
     document.getElementById("mySidenav2").style.width = "0";
     document.getElementById("leftMain").style.marginLeft = "0";
+}
+
+function showVideo(id){
+    $('#' + id).show();
 }
 

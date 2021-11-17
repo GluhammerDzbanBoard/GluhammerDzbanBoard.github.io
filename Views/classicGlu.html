@@ -62,6 +62,12 @@
             <button type="button" class="classic-button" onclick="playSound('../Sounds/Klasyczny/cizarazkopazajebie.wav')">CI ZARAZ KOPA ZAJEBIE</button>
             <button type="button" class="classic-button" onclick="playSound('../Sounds/Klasyczny/nozdychaj.wav')">NO ZDYCHAJ</button>
             <button type="button" class="classic-button" onclick="playSound('../Sounds/Klasyczny/jajebie.wav')">JA JEBIE</button>
+            <button type="button" class="classic-button" onclick="showVideo('102MetryVideo')">102 METRY</button>
+            <video id='102MetryVideo' controls style="width: 100%;">
+              <source src="../Videos/102metry.mp4" type="video/mp4">
+            </video>
+            <button type="button" class="classic-button" onclick="playSound('../Sounds/Klasyczny/moralemniewydymaly.wav')">MORALE MNIE WYDYMAŁY</button>
+            <button type="button" class="classic-button" onclick="playSound('../Sounds/Klasyczny/tychamiespocony.wav')">TY CHAMIE SPOCONY</button>
           </div>
           <div class="col"></div>
         </div>
@@ -73,5 +79,6 @@
       $("#mainBoard").removeClass("col-6")
     $("#mainBoard").addClass("col-sm")
     }
+    $('#102MetryVideo').hide();
   })
   </script>

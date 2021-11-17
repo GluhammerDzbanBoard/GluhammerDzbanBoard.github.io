@@ -685,5 +685,50 @@
     },
     {
         "FilePath": "../Sounds/Spec/odegralemsie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/jagoniewidzialem.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/kiedyjesteswyjebanynabiomie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/ktoskontroluje.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/nieotworzylembreaka.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/niezmoraluja.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/otychamie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/tojestdlapojebow.wav"
+    },
+    {
+        "FilePath": "../Sounds/Spec/wrazztymchainem.wav"
+    },
+    {
+        "FilePath": "../Sounds/Gachi/chceszzagracnamoimflecie.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/chcialemkartkeprzewinac.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/jatezchcemorale.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/jatopierdole.wav"
+    },
+    {
+        "FilePath": "../Sounds/Oaza/trzycztery.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/moralemniewydymaly.wav"
+    },
+    {
+        "FilePath": "../Sounds/Klasyczny/tychamiespocony.wav"
     }
 ]
