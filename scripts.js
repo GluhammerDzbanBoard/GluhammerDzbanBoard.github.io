@@ -111,13 +111,12 @@ function openLeftNav() {
     document.getElementById("mySidenav2").style.width = "250px";
     document.getElementById("leftMain").style.marginLeft = "250px";
 }
+
+function showVideo(id){
+    $('#' + id).show();
+}
   
 function closeLeftNav() {
     document.getElementById("mySidenav2").style.width = "0";
     document.getElementById("leftMain").style.marginLeft = "0";
 }
-
-function showVideo(id){
-    $('#' + id).show();
-}
-
